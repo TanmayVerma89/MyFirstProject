@@ -1,0 +1,91 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+#nav {
+    height: 6%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+#nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+#center {
+    color: #ffffff;
+    height: 88%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 55px;
+    margin-bottom: 10px;
+
+}
+
+#center h3 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#center h5 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.links #a {
+    color: #fff;
+    font-size: 20px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 1px solid royalblue;
+    background-color: royalblue;
+}
+
+.links #b {
+    background-color: transparent;
+    color: royalblue;
+    font-size: 20px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 1px solid royalblue;
+    cursor: pointer;
+
+}
+
+#b:hover {
+    color: #fff;
+    background-color: royalblue;
+}
