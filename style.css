@@ -18,15 +18,18 @@ body {
 }
 
 #nav {
-    height: 6%;
+    height: 5.5%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #ffffffd9;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    font-weight: 300;
+    gap: 30px;
+    font-size: 12px;
+    font-weight: 100;
     padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
 #nav a {
@@ -44,10 +47,9 @@ body {
     text-align: center;
     padding: 55px;
     margin-bottom: 10px;
-
 }
 
-#center h3 {
+#center h4 {
     font-size: 60px;
     font-weight: 600;
 }
@@ -57,7 +59,7 @@ body {
     font-weight: 300;
 }
 
-.links {
+.Buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,27 +67,50 @@ body {
     padding: 20px;
 }
 
-.links #a {
+.Buttons .Learn {
     color: #fff;
     font-size: 20px;
     padding: 13px 20px;
     border-radius: 50px;
-    border: 1px solid royalblue;
-    background-color: royalblue;
+    border: 1px solid rgb(0, 119, 237);
+    background-color: rgb(0, 119, 237);
 }
 
-.links #b {
+.Buttons .Buy {
     background-color: transparent;
-    color: royalblue;
+    color: rgb(0, 119, 237);
     font-size: 20px;
-    padding: 13px 20px;
+    padding: 13px 23px;
     border-radius: 50px;
-    border: 1px solid royalblue;
+    border: 1px solid rgb(0, 119, 237);
     cursor: pointer;
 
 }
 
-#b:hover {
+.Buy:hover {
     color: #fff;
-    background-color: royalblue;
+    background-color: rgb(0, 119, 237);
+}
+
+#Air {
+    height: 88%;
+    width: 100%;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_largetall_2x.jpg);
+    border: 2px black;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+#Air h2 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+#text h6 {
+    letter-spacing: -1px;
+    font-weight: 300;
+    font-size: 30px;
 }
