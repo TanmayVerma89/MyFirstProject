@@ -20,7 +20,7 @@ body {
 #nav {
     height: 5.5%;
     width: 100%;
-    background-color: #ffffffd9;
+    background-color: #ffffffe4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
     text-decoration: none;
 }
 
-#center {
+#iPhone_Pro {
     color: #ffffff;
     height: 88%;
     width: 100%;
@@ -49,12 +49,12 @@ body {
     margin-bottom: 10px;
 }
 
-#center h4 {
+#iPhone_Pro h4 {
     font-size: 60px;
     font-weight: 600;
 }
 
-#center h5 {
+#iPhone_Pro h5 {
     font-size: 30px;
     font-weight: 300;
 }
@@ -97,10 +97,10 @@ body {
     width: 100%;
     text-align: center;
     background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_largetall_2x.jpg);
-    border: 2px black;
     background-size: cover;
     background-position: center;
     padding: 50px;
+    margin-bottom: 10px;
 }
 
 #Air h2 {
@@ -109,8 +109,92 @@ body {
     letter-spacing: -1px;
 }
 
-#text h6 {
+.text p {
     letter-spacing: -1px;
     font-weight: 300;
     font-size: 30px;
+}
+
+#Quadrant {
+    height: 230%;
+    width: 100%;
+    background-color: #ffffff7d;
+    text-align: center;
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layout {
+    height: 32.5%;
+    width: 49.5%;
+    background-size: cover;
+    background-position: center;
+    letter-spacing: -1;
+}
+
+.layout h2 {
+    padding-top: 60px;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.layout p {
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+.Q-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.Q-Learn {
+    color: #fff;
+    padding: 10px 17px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 119, 237);
+    background-color: rgb(0, 119, 237);
+
+}
+
+.Q-Buy {
+    background-color: transparent;
+    color: rgb(0, 119, 237);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 119, 237);
+    cursor: pointer;
+}
+
+#iPhone {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-17/promo_iphone_17__bhofuohbsu3m_large_2x.jpg);
+}
+
+#iCloud {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_large_2x.jpg);
+}
+
+#watch {
+    background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_large_2x.jpg);
+}
+
+#AirPods {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg);
+}
+
+#iPad {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_large_2x.jpg);
+}
+
+#TradeIn {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
 }
